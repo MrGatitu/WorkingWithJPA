@@ -15,6 +15,8 @@ public class Customer {
     String firstName;
     String lastName;
 
+    public Customer(){}
+
     public Customer(
         Long id,
         String firstName,
@@ -34,5 +36,11 @@ public class Customer {
     }
     public String getLastName(){
         return lastName;
+    }
+
+    public String toString(){
+        return String.format(
+            "Customer[id=%d, firstName ='%s', lastName='%s']",
+            id,firstName,lastName );
     }
 }
