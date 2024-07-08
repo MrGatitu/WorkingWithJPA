@@ -15,6 +15,8 @@ public class Customer {
     String firstName;
     String lastName;
 
+    public Customer(){}
+
     public Customer(
         Long id,
         String firstName,

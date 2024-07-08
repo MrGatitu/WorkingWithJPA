@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = "com.example.WorkingWithJPA")
+//@EnableJpaRepositories(basePackages = "com.example.WorkingWithJPA")
 public class WorkingWithJpaApplication {
 
 	private static final Logger log = 
