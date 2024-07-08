@@ -10,6 +10,7 @@ public class Customer {
 
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
+
     Long id;
     String firstName;
     String lastName;
@@ -23,5 +24,15 @@ public class Customer {
         this.firstName = firstName;
         this.lastName = lastName;
 
+    }
+
+    public Long getId(){
+        return id;
+    }
+    public String getFirstName(){
+        return firstName;
+    }
+    public String getLastName(){
+        return lastName;
     }
 }
